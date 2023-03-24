@@ -8,3 +8,7 @@
 loop() 함수에서는 MPU6050 모듈을 이용해 현재 자동차의 기울기를 감지하고, 이를 이용해 모터 속도와 핸들 각도를 설정합니다. 또한, 시리얼 통신을 이용하여 외부에서 핸들 조향 값을 입력받을 수 있습니다. 모터 속도와 핸들 각도를 설정하는 함수는 각각 setMotorSpeed()와 setServoAngle()입니다. 모터 속도를 조정하는데에는 adjustMotorSpeed() 함수를 사용합니다.
 
 printAngle() 함수는 현재 자동차의 각도를 시리얼 모니터에 출력하기 위해 사용됩니다.
+
+
+### MPU-6050
+https://www.pololu.com/product/1451/specs
