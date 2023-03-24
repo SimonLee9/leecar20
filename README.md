@@ -10,9 +10,9 @@ loop() 함수에서는 MPU6050 모듈을 이용해 현재 자동차의 기울기
 printAngle() 함수는 현재 자동차의 각도를 시리얼 모니터에 출력하기 위해 사용됩니다.
 
 
-### MPU-6050
+###MPU-6050
 https://github.com/tockn/MPU6050_tockn/blob/master/src/MPU6050_tockn.cpp
 https://steemit.com/kr-arduino/@codingman/mpu-6050-processing
 
-### VNH5019 Motor Driver
+###VNH5019 Motor Driver
 https://www.pololu.com/product/1451/specs
