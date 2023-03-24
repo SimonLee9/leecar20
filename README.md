@@ -11,4 +11,8 @@ printAngle() 함수는 현재 자동차의 각도를 시리얼 모니터에 출�
 
 
 ### MPU-6050
+https://github.com/tockn/MPU6050_tockn/blob/master/src/MPU6050_tockn.cpp
+https://steemit.com/kr-arduino/@codingman/mpu-6050-processing
+
+### VNH5019 Motor Driver
 https://www.pololu.com/product/1451/specs
