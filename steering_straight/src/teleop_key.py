@@ -67,7 +67,7 @@ def checkSTEERINGLimitVelocity(vel):
 if __name__ == '__main__':    
     settings = termios.tcgetattr(sys.stdin)    
     
-    pub = rospy.Publisher('roscar_teleop_cmd_vel', UInt16MultiArray, queue_size=10)    
+    pub = rospy.Publisher('leecar18_cmd_vel', UInt16MultiArray, queue_size=10)    
     rospy.init_node('roscar_teleop',anonymous=True)    
     
     teleop_int = UInt16MultiArray()    
