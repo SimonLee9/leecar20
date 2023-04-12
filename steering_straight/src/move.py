@@ -16,7 +16,7 @@ def callback1(msg):
 
 def motor_control():    
     rospy.init_node('motor_control',anonymous=True)    
-    rospy.Subscriber("roscar_teleop_cmd_vel",UInt16MultiArray,callback1)    
+    rospy.Subscriber("leecar18_cmd_vel",UInt16MultiArray,callback1)    
     pub.publish(cmd_vel)    
     rospy.spin()
     
