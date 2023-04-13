@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rosrun steering_straight teleop_key.py
+

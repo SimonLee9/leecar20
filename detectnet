@@ -1,0 +1,4 @@
+#!/bin/bash
+
+roslaunch ros_deep_learning detectnet.ros1.launch
+

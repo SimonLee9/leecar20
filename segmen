@@ -1,0 +1,4 @@
+#!/bin/bash
+
+python3 segnet.py /dev/video0 --width=640 --height=480
+
